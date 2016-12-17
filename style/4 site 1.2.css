@@ -1,0 +1,152 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 40px 0 20px 75px;
+}
+.image-block {
+    overflow: hidden;
+    width: 800px;
+    height: 455px;
+}
+.post-box {
+    background-color: white;
+    width: 800px;
+    padding: 1% 18px 2.43% 18px;
+    position: relative;
+    border: 0px solid #f3f3f3;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.05);
+    flex: 0 1 auto;
+    margin-right: 36px;
+}
+.post-box img {
+    border-radius: 6px;
+    transition: all 1s ease-out;
+}
+.post-box img:hover {
+    transform: scale(1.12);
+}
+.post-box h2 {
+    font-family: "Segoe UI Semilight", Tahoma, Helvetica, Sans-Serif;
+    color: #222;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 35px;
+    transition: all .4s ease-in-out;
+    margin: 0;
+}
+.post-box h2:hover {
+    color: #00b4f0;
+    transition: all 0.2s 0.01s ease;
+}
+.post-boxt {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.post-boxt:hover {
+    color:  #ed3e7c;
+    text-decoration: none;
+}
+.post-pr {
+    color: black;
+    margin-bottom: 60px;
+}
+.link-more a {
+    overflow: hidden;
+    border-radius: 3px;
+    background: #e7e7e7 url(../images/linkMore.png) 8px 9px no-repeat;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-weight: 500;
+    color: #888;
+    font-size: 15px;
+    padding: 6px 11px 9px 31px;
+    transition: all 0.3s 0.01s ease;
+}
+.link-more a:hover {
+    background: #00b4f0 url(../images/linkMore.png) 13px 9px no-repeat;
+    color: #fff;
+}
+.sm-post-box {
+    background-color: white;
+    height: 530px;
+    width: 385px;
+    margin: 55px 0 0 75px;
+    overflow: hidden;
+}
+.sm-post-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 0 0;
+    transition: all 1s ease-out;
+}
+.sm-post-box img:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-out;
+}
+.sm-post-box h2 {
+    margin: 0;
+}
+.sm-post-box h2 a {
+    font-family: "Segoe UI Regular", Tahoma, Helvetica, Sans-Serif;
+    color: #222;
+    font-weight: 100;
+    font-size: 0.9em;
+    line-height: 25px;
+    transition: all 0.2s 0.01s ease;
+    padding: 0 20px 0 20px;
+    display: inline-block;
+}
+.sm-post-box h2 a:hover {
+    color: #00b4f0;
+    margin-bottom: 0;
+}
+.sm-info {
+    padding-left: 20px;
+    font-size: 13px;
+}
+.sm-info-
+.more-box {
+    height: 65px;
+    width: 320px;
+    background-color: white;
+    flex: 0 1 auto;
+}
+.text-info h2 {
+    background: url(../images/lineh2.png) 0px 0px no-repeat;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: "Segoe UI Semilight", Tahoma, Helvetica, Sans-Serif;
+    color: #00b4f0;
+    display: block;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+}
+.text-more {
+    position: absolute;
+}
+.text-more li{
+    list-style: none;
+    width: 280px;
+    color: black;
+    border-bottom: 1px #e5e5e5 solid;
+    transition: all 0.3s 0.01s ease;
+}
+.text-more ul{
+    padding-left: 0px;
+    margin: 0;
+}
+.text-more ul li{
+    padding: 10px 0px;
+    color: #ccc;
+}
+.text-more li a{
+    transition: all 0.3s 0.01s ease;
+    color: black;
+}
+.text-more li a:hover{
+    color: #00b4f0;
+}
