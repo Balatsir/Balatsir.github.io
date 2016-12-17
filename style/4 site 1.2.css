@@ -108,7 +108,14 @@ a.post-boxt:hover {
     padding-left: 20px;
     font-size: 13px;
 }
-.sm-info-
+a.sm-info:hover {
+    color:  red;
+    text-decoration: none;
+}
+.sm-post-pr {
+    color: black;
+    padding: 0 20px 0px 20px;
+}
 .more-box {
     height: 65px;
     width: 320px;
