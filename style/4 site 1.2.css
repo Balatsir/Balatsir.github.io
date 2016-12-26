@@ -72,7 +72,7 @@ a.post-boxt:hover {
 .sm-box {
     display: block;
     margin: 55px 0 0 75px;
-    height: 600px;
+    height: 530x;
 }
 .sm-post-box {
     background-color: white;
@@ -80,6 +80,7 @@ a.post-boxt:hover {
     width: 385px;
     overflow: hidden;
     display: inline-block;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
 }
 .sm-post-box:nth-child(2n) {
     margin-left: 66px;
@@ -115,10 +116,6 @@ a.post-boxt:hover {
 .sm-info {
     padding-left: 20px;
     font-size: 13px;
-}
-a.sm-info:hover {
-    color:  red;
-    text-decoration: none;
 }
 .sm-post-pr {
     color: black;
