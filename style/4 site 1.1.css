@@ -24,7 +24,7 @@ body{
     display: block;
 }
 .log {
-    padding: 12px 75px 12px 75px;
+    padding: 12px 0 0 75px;
     position: absolute;
 }
 .log a {
@@ -137,7 +137,7 @@ body{
     height: 95px;
 }
 .footer {
-    margin-top: 15%;
+    margin-top: 50px;
     position: relative;
     background-color: #00b4f0;
     height: 120px;
