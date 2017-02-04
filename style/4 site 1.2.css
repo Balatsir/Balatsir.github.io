@@ -8,6 +8,7 @@
     overflow: hidden;
     width: 800px;
     height: 455px;
+    padding-bottom: 10px; 
 }
 .post-box {
     background-color: white;
@@ -82,6 +83,7 @@ a.post-boxt:hover {
     display: inline-block;
     box-shadow: 0 2px 3px rgba(0,0,0,0.1);
     position: relative;
+    border-radius: 7px 7px 0 0;
 }
 .sm-post-box:nth-child(2n) {
     margin-left: 66px;
@@ -90,7 +92,6 @@ a.post-boxt:hover {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 5px 5px 0 0;
     transition: all 1s ease-out;
 }
 .sm-post-box img:hover {
@@ -125,7 +126,7 @@ a.post-boxt:hover {
 .sm-link-more {
     overflow: hidden;
     border-radius: 3px;
-    background: #e7e7e7 url(../images/linkMore.png) 8px 9px no-repeat;
+    background: #e7e7e7 url(../images/icons/linkMore.png) 8px 9px no-repeat;
     font-weight: 500;
     color: #888;
     font-size: 15px;
@@ -137,7 +138,7 @@ a.post-boxt:hover {
     position: absolute;
 }
 .sm-link-more:hover {
-    background: #00b4f0 url(../images/linkMore.png) 13px 9px no-repeat;
+    background: #00b4f0 url(../images/icons/linkMore.png) 13px 9px no-repeat;
     color: #fff;
 }
 .more-box {
@@ -147,7 +148,7 @@ a.post-boxt:hover {
     flex: 0 1 auto;
 }
 .text-info h2 {
-    background: url(../images/lineh2.png) 0px 0px no-repeat;
+    background: url(../images/icons/lineh2.png) 0px 0px no-repeat;
     font-size: 22px;
     font-weight: 100;
     font-family: "Segoe UI Semilight", Tahoma, Helvetica, Sans-Serif;
